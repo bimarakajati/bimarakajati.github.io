@@ -46,71 +46,73 @@
         <div class="guest" id="guest">
             <br>
             <h1>GUEST BOOK</h1>
-            <table>
-                <form action="proses.php" method="POST">
-                    <tr>
-                        <td>Full Name</td>
-                        <td>:</td>
-                        <td>
-                            <input type="text" name="nama_lengkap" size="55" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Gender</td>
-                        <td>:</td>
-                        <td>
-                            <input type="radio" name="jenis_kelamin" value="Male" required>Male
-                            <input type="radio" name="jenis_kelamin" value="Female"required>Female
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>:</td>
-                        <td>
-                            <input type="text" name="alamat" size="55" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td>:</td>
-                        <td>
-                            <input type="email" name="email" size="55" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Social Media</td>
-                        <td>:</td>
-                        <td>
-                            <input type="checkbox" name="facebook" value="ya">Facebook
-                            <input type="checkbox" name="twitter" value="ya">Twitter
-                            <input type="checkbox" name="instagram" value="ya">Instagram
-                            <input type="checkbox" name="tiktok" value="ya">Tiktok
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Knowing this website from?</td>
-                        <td>:</td>
-                        <td>
-                            <select name="info">
-                                <!-- <option selected="select">-=select one=-</option> -->
-                                <option value="Website">Website</option>
-                                <option value="Email">Email</option>
-                                <option value="Family">Family</option>
-                                <option value="Friends">Friends</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Testimonials</td>
-                        <td>:</td>
-                        <td>
-                            <textarea name="pesan" cols="40" rows="3"></textarea><br>
-                            <input type="submit" name="submit" value="Submit">
-                            <input type="reset" name="reset" value="Reset">
-                        </td>
-                    </tr>
-                </form>
-            </table>
+            <div style="overflow-x:auto;">
+                <table>
+                    <form action="proses.php" method="POST">
+                        <tr>
+                            <td>Full Name</td>
+                            <td>:</td>
+                            <td>
+                                <input type="text" name="nama_lengkap" size="55" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="jenis_kelamin" value="Male" required>Male
+                                <input type="radio" name="jenis_kelamin" value="Female"required>Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>:</td>
+                            <td>
+                                <input type="text" name="alamat" size="55" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>
+                                <input type="email" name="email" size="55" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Social Media</td>
+                            <td>:</td>
+                            <td>
+                                <input type="checkbox" name="facebook" value="ya">Facebook
+                                <input type="checkbox" name="twitter" value="ya">Twitter
+                                <input type="checkbox" name="instagram" value="ya">Instagram
+                                <input type="checkbox" name="tiktok" value="ya">Tiktok
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Knowing this website from?</td>
+                            <td>:</td>
+                            <td>
+                                <select name="info">
+                                    <!-- <option selected="select">-=select one=-</option> -->
+                                    <option value="Website">Website</option>
+                                    <option value="Email">Email</option>
+                                    <option value="Family">Family</option>
+                                    <option value="Friends">Friends</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Testimonials</td>
+                            <td>:</td>
+                            <td>
+                                <textarea name="pesan" cols="40" rows="3"></textarea><br>
+                                <input type="submit" name="submit" value="Submit">
+                                <input type="reset" name="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
         </div>
         
         <!-- CONTACT -->
