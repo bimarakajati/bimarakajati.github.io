@@ -1,11 +1,4 @@
 /* HTML AND BODY */
-.section{
-    scrollbar-width: thin;
-}
-.section{
-    scrollbar-color: #6969dd #e0e0e0;
-    scrollbar-width: thin;
-}
 body, html{
     margin: 0;
     height: 100%;
@@ -127,4 +120,22 @@ a:hover{
 #myBtn:hover{
     background-color: #555;
     border-color: #fff;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+    ::-webkit-scrollbar-thumb {
+background: #888; 
+}
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+background: #555; 
 }
