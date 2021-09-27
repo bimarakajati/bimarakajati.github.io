@@ -1,6 +1,5 @@
 /* Page */
-html,
-body {
+html, body{
   background-color: #e74c3c;
   height: 100%;
   margin: 0;
@@ -8,40 +7,31 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
-
 /* Userpage */
-.centerTable {
+.centerTable{
   margin: 0px auto;
 }
-
-.yt:hover {
-  background-image: url('3.png');
+.yt:hover{
+  background-image: url('img/3.png');
 }
-
-.fb:hover {
-  background-image: url('5.png');
+.fb:hover{
+  background-image: url('img/5.png');
 }
-
-.about:hover {
-  background-image: url('8.png');
+.about:hover{
+  background-image: url('img/8.png');
 }
-
-.skin:hover {
-  background-image: url('10.png');
+.skin:hover{
+  background-image: url('img/10.png');
 }
-
-.other:hover {
-  background-image: url('12.png');
+.other:hover{
+  background-image: url('img/12.png');
 }
-
-.other,
-#about {
+.other, #about{
   cursor: pointer
 }
 
-
 /* The Modal (background) */
-.modal {
+.modal{
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -64,9 +54,8 @@ body {
   /* Black w/ opacity */
 }
 
-
 /* Modal Content */
-.modal-content {
+.modal-content{
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -80,79 +69,67 @@ body {
   animation-duration: 0.4s
 }
 
-
 /* Add Animation */
-@-webkit-keyframes animatetop {
-  from {
+@-webkit-keyframes animatetop{
+  from{
     top: -300px;
     opacity: 0
-  }
-  to {
+  }  to{
     top: 0;
     opacity: 1
-  }
-}
-
-@keyframes animatetop {
-  from {
+  }}
+@keyframes animatetop{
+  from{
     top: -300px;
     opacity: 0
-  }
-  to {
+  }  to{
     top: 0;
     opacity: 1
-  }
-}
-
+  }}
 
 /* The Close Button */
-.close {
+.close{
   color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
-.close:hover,
-.close:focus {
+.close:hover, .close:focus{
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
-.modal-header {
+.modal-header{
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
 }
-
-.modal-body {
+.modal-body{
   padding: 2px 16px;
 }
-
-.modal-footer {
+.modal-footer{
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
 }
 
 /* link */
-a:link {
+a:link{
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
-a:visited {
+a:visited{
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
-a:hover {
+a:hover{
     color: black;
     background-color: transparent;
     text-decoration: underline;
 }
-a:active {
+a:active{
     color: black;
     background-color: transparent;
     text-decoration: underline;
