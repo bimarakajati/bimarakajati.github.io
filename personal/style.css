@@ -1,4 +1,11 @@
 /* HTML AND BODY */
+.section{
+    scrollbar-width: thin;
+}
+.section{
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
 body, html{
     margin: 0;
     height: 100%;
@@ -6,7 +13,8 @@ body, html{
 body{
     min-height: 100%;
     background-color: #292929;
-    overflow: hidden; /* Hide scrollbars */
+    /* Hide scrollbars */
+    /* overflow: hidden; */
 }
 html{
     scroll-behavior: smooth;
