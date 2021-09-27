@@ -11,20 +11,20 @@ html, body{
 .centerTable{
   margin: 0px auto;
 }
+.fb:hover{
+  background-image: url('img/1.png');
+}
 .yt:hover{
   background-image: url('img/3.png');
 }
-.fb:hover{
+.about:hover{
   background-image: url('img/5.png');
 }
-.about:hover{
-  background-image: url('img/8.png');
-}
 .skin:hover{
-  background-image: url('img/10.png');
+  background-image: url('img/7.png');
 }
 .other:hover{
-  background-image: url('img/12.png');
+  background-image: url('img/9.png');
 }
 .other, #about{
   cursor: pointer
