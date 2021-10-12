@@ -25,27 +25,27 @@
 <body>
 	<h1>GUEST BOOK</h1>
 	<?php
-		if(isset($_POST['submit'])){
-			if(isset($_POST['facebook'])){$fb="Yes";}else{$fb="-";}
-			if(isset($_POST['twitter'])){$tw="Yes";}else{$tw="-";}
-			if(isset($_POST['instagram'])){$ig="Yes";}else{$ig="-";}
-			if(isset($_POST['tiktok'])){$tt="Yes";}else{$tt="-";}
+		if(isset($_GET['submit'])){
+			if(isset($_GET['facebook'])){$fb="Yes";}else{$fb="-";}
+			if(isset($_GET['twitter'])){$tw="Yes";}else{$tw="-";}
+			if(isset($_GET['instagram'])){$ig="Yes";}else{$ig="-";}
+			if(isset($_GET['tiktok'])){$tt="Yes";}else{$tt="-";}
 			echo "<table id='customers'>
 			<tr>
 				<td>Full Name</td>
-				<td>: ".$_POST['nama_lengkap']."</td>
+				<td>: ".$_GET['nama_lengkap']."</td>
 			</tr>
 			<tr>
 				<td>Gender</td>
-				<td>: ".$_POST['jenis_kelamin']."</td>
+				<td>: ".$_GET['jenis_kelamin']."</td>
 			</tr>
 			<tr>
 				<td>Address</td>
-				<td>: ".$_POST['alamat']."</td>
+				<td>: ".$_GET['alamat']."</td>
 			</tr>
 			<tr>
 				<td>Email</td>
-				<td>: ".$_POST['email']."</td>
+				<td>: ".$_GET['email']."</td>
 			</tr>
 			<tr>
 				<td colspan=2>Social Media</td>
@@ -68,11 +68,11 @@
 			</tr>
 			<tr>
 				<td>Knowing this website from</td>
-				<td>: ".$_POST['info']."</td>
+				<td>: ".$_GET['info']."</td>
 			</tr>
 			<tr>
 				<td>Testimonials</td>
-				<td>: ".$_POST['pesan']."</td>
+				<td>: ".$_GET['pesan']."</td>
 			</tr>
 		</table>";
 		}
