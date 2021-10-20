@@ -1,47 +1,49 @@
 /* HTML AND BODY */
-body, html{
+body,
+html {
     margin: 0;
     height: 100%;
 }
-body{
+body {
     min-height: 100%;
     background-color: #292929;
     /* Hide scrollbars */
     /* overflow: hidden; */
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-a:link,:visited{
+a:link,
+:visited {
     text-decoration: none;
     color: #f7484e;
 }
-a:hover{
+a:hover {
     color: white;
 }
 
 /* HEADER */
-.header{
+.header {
     background-color: #292929;
     height: 100%;
     text-align: center;
     /* font-weight: bold; */
     color: white;
 }
-.header h3{
-    font-family:Candara;
+.header h3 {
+    font-family: Candara;
 }
-.header h1{
-    font-family:Arial;
+.header h1 {
+    font-family: Arial;
 }
-.header img{
+.header img {
     width: 200px;
     border-radius: 50%;
 }
-.header table{
-    font-family:Arial;
+.header table {
+    font-family: Arial;
 }
-.header_center{
+.header_center {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -51,28 +53,28 @@ a:hover{
 }
 
 /* ABOUT */
-.about{
+.about {
     background-color: #f7484e;
     height: 100%;
     text-align: center;
-    font-family:Arial;
+    font-family: Arial;
     color: white;
 }
-.about p{
+.about p {
     font-size: 20px;
 }
 
 /* GUEST BOOK */
-.guest{
+.guest {
     background-color: #ffffff;
     height: 100%;
-    font-family:Arial;
+    font-family: Arial;
     color: black;
 }
-.guest h1{
+.guest h1 {
     text-align: center;
 }
-.guest table{
+.guest table {
     /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
@@ -80,26 +82,32 @@ a:hover{
 }
 
 /* CONTACT */
-.contact{
+.contact {
     background-color: #292929;
     height: 100%;
     color: white;
-    font-family:Arial;
+    font-family: Arial;
 }
-.contact h1, p{
+.contact h1,
+p {
     text-align: center;
 }
-.contact table{
+.contact table {
     margin-left: auto;
     margin-right: auto;
 }
-.social{
+.social {
     text-align: center;
     font-size: 24px;
 }
+.copyright {
+    text-decoration: none;
+    color: #292929;
+    font-style: italic;
+}
 
 /* SCROLL UP BUTTON */
-#myBtn{
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -118,7 +126,7 @@ a:hover{
     padding-bottom: 5px;
     border-radius: 4px;
 }
-#myBtn:hover{
+#myBtn:hover {
     background-color: #555;
     border-color: #fff;
 }
@@ -135,10 +143,10 @@ a:hover{
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
     border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
