@@ -26,7 +26,7 @@ a:hover {
 /* KIRI */
 .logo {
     cursor: pointer;
-    width: 80%;
+    width: 80%; 
     height: auto;
 }
 
@@ -44,23 +44,13 @@ ul {
     font-weight: bold;
 }
 
-/* .header {
-    background: #ecf0f1;
-} */
-
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-
 /* BANNER */
 .banner {
     color: white;
-    background-image: url("img/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    padding: 20px;
+    background-image:url('img/banner.jpg');
+    background-repeat:no-repeat;
+    background-size:100% auto; 
+    padding:20px;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -106,7 +96,7 @@ ul {
 }
 
 .card {
-    width: 30%;
+    width: 30%
 }
 
 .title {
@@ -157,6 +147,27 @@ ul {
 
 .fa {
     padding: 5px;
+}
+
+#stores,
+#about {
+    padding: 100px;
+}
+
+h1.supreme {
+    text-align: center;
+    color: white;
+}
+
+.address{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.paragraph {
+    text-align: justify;
+    color: white;
+    text-indent: 45px
 }
 
 .row:after {
