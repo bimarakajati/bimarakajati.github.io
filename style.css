@@ -40,7 +40,7 @@ a:hover {
     width: 200px;
     border-radius: 50%;
 }
-.header table {
+.header a {
     font-family: Arial;
 }
 .header_center {
@@ -64,21 +64,18 @@ a:hover {
     font-size: 20px;
 }
 
-/* GUEST BOOK */
-.guest {
-    background-color: #ffffff;
+/* WORK */
+.work {
+    background-color: #f7f7f7;
     height: 100%;
     font-family: Arial;
     color: black;
 }
-.guest h1 {
+.work h1 {
     text-align: center;
 }
-.guest table {
-    /* width: 100%; */
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+.work p {
+    font-size: 20px;
 }
 
 /* CONTACT */
